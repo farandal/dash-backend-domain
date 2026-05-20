@@ -1,0 +1,121 @@
+[
+    {
+        "group": "lab.project",
+        "level": 2,
+        "labels": [
+            { "name": "Create Lab Project",                    "route_name": "api.lab.project.create" },
+            { "name": "Delete Lab Project",                    "route_name": "api.lab.project.delete" },
+            { "name": "Delete Many Lab Projects",              "route_name": "api.lab.project.deleteMany" },
+            { "name": "Filter Lab Project Value",              "route_name": "api.lab.project.filterValue" },
+            { "name": "Filter Lab Project Values",             "route_name": "api.lab.project.filterValues" },
+            { "name": "Get Lab Projects For Select",           "route_name": "api.lab.project.getForSelect" },
+            { "name": "Get Lab Projects",                      "route_name": "api.lab.project.getList" },
+            { "name": "Get Many Lab Projects",                 "route_name": "api.lab.project.getMany" },
+            { "name": "Get Many Reference Lab Projects",       "route_name": "api.lab.project.getManyReference" },
+            { "name": "Get Lab Project",                       "route_name": "api.lab.project.getOne" },
+            { "name": "Update Lab Project",                    "route_name": "api.lab.project.update" },
+            { "name": "Update Many Lab Projects",              "route_name": "api.lab.project.updateMany" }
+        ]
+    },
+    {
+        "group": "lab.project.trash",
+        "level": 2,
+        "labels": [
+            { "name": "Get Trashed Lab Projects",              "route_name": "api.lab.project.trash.getList" },
+            { "name": "Restore Lab Project",                   "route_name": "api.lab.project.trash.update" },
+            { "name": "Delete Trashed Lab Project",            "route_name": "api.lab.project.trash.delete" },
+            { "name": "Restore Many Lab Projects",             "route_name": "api.lab.project.trash.updateMany" },
+            { "name": "Delete Many Trashed Lab Projects",      "route_name": "api.lab.project.trash.deleteMany" }
+        ]
+    },
+    {
+        "group": "lab.project.users",
+        "level": 2,
+        "labels": [
+            { "name": "Get Lab Project Users",                 "route_name": "api.lab.project.users.index" },
+            { "name": "Add User To Lab Project",               "route_name": "api.lab.project.users.attach" },
+            { "name": "Remove User From Lab Project",          "route_name": "api.lab.project.users.detach" },
+            { "name": "Update Lab Project User Role",          "route_name": "api.lab.project.users.updateRole" }
+        ]
+    },
+    {
+        "group": "lab.agent_config",
+        "level": 2,
+        "labels": [
+            { "name": "Get Agent Config For Tenant",           "route_name": "api.lab.agent-config.getForTenant" },
+            { "name": "Create Agent Config",                   "route_name": "api.lab.agent-config.create" },
+            { "name": "Delete Agent Config",                   "route_name": "api.lab.agent-config.delete" },
+            { "name": "Delete Many Agent Configs",             "route_name": "api.lab.agent-config.deleteMany" },
+            { "name": "Filter Agent Config Value",             "route_name": "api.lab.agent-config.filterValue" },
+            { "name": "Filter Agent Config Values",            "route_name": "api.lab.agent-config.filterValues" },
+            { "name": "Get Agent Configs For Select",          "route_name": "api.lab.agent-config.getForSelect" },
+            { "name": "Get Agent Configs",                     "route_name": "api.lab.agent-config.getList" },
+            { "name": "Get Many Agent Configs",                "route_name": "api.lab.agent-config.getMany" },
+            { "name": "Get Many Reference Agent Configs",      "route_name": "api.lab.agent-config.getManyReference" },
+            { "name": "Get Agent Config",                      "route_name": "api.lab.agent-config.getOne" },
+            { "name": "Update Agent Config",                   "route_name": "api.lab.agent-config.update" },
+            { "name": "Update Many Agent Configs",             "route_name": "api.lab.agent-config.updateMany" }
+        ]
+    },
+    {
+        "group": "lab.mcp_server",
+        "level": 2,
+        "labels": [
+            { "name": "Create MCP Server",                     "route_name": "api.lab.mcp-server.create" },
+            { "name": "Delete MCP Server",                     "route_name": "api.lab.mcp-server.delete" },
+            { "name": "Delete Many MCP Servers",               "route_name": "api.lab.mcp-server.deleteMany" },
+            { "name": "Filter MCP Server Value",               "route_name": "api.lab.mcp-server.filterValue" },
+            { "name": "Filter MCP Server Values",              "route_name": "api.lab.mcp-server.filterValues" },
+            { "name": "Get MCP Servers For Select",            "route_name": "api.lab.mcp-server.getForSelect" },
+            { "name": "Get MCP Servers",                       "route_name": "api.lab.mcp-server.getList" },
+            { "name": "Get Many MCP Servers",                  "route_name": "api.lab.mcp-server.getMany" },
+            { "name": "Get Many Reference MCP Servers",        "route_name": "api.lab.mcp-server.getManyReference" },
+            { "name": "Get MCP Server",                        "route_name": "api.lab.mcp-server.getOne" },
+            { "name": "Update MCP Server",                     "route_name": "api.lab.mcp-server.update" },
+            { "name": "Update Many MCP Servers",               "route_name": "api.lab.mcp-server.updateMany" }
+        ]
+    },
+    {
+        "group": "lab.mcp_server.trash",
+        "level": 2,
+        "labels": [
+            { "name": "Get Trashed MCP Servers",               "route_name": "api.lab.mcp-server.trash.getList" },
+            { "name": "Restore MCP Server",                    "route_name": "api.lab.mcp-server.trash.update" },
+            { "name": "Delete Trashed MCP Server",             "route_name": "api.lab.mcp-server.trash.delete" },
+            { "name": "Restore Many MCP Servers",              "route_name": "api.lab.mcp-server.trash.updateMany" },
+            { "name": "Delete Many Trashed MCP Servers",       "route_name": "api.lab.mcp-server.trash.deleteMany" }
+        ]
+    },
+    {
+        "group": "lab.document",
+        "level": 2,
+        "labels": [
+            { "name": "Create Lab Document",                   "route_name": "api.lab.document.create" },
+            { "name": "Delete Lab Document",                   "route_name": "api.lab.document.delete" },
+            { "name": "Delete Many Lab Documents",             "route_name": "api.lab.document.deleteMany" },
+            { "name": "Filter Lab Document Value",             "route_name": "api.lab.document.filterValue" },
+            { "name": "Filter Lab Document Values",            "route_name": "api.lab.document.filterValues" },
+            { "name": "Get Lab Documents For Select",          "route_name": "api.lab.document.getForSelect" },
+            { "name": "Get Lab Documents",                     "route_name": "api.lab.document.getList" },
+            { "name": "Get Many Lab Documents",                "route_name": "api.lab.document.getMany" },
+            { "name": "Get Many Reference Lab Documents",      "route_name": "api.lab.document.getManyReference" },
+            { "name": "Get Lab Document",                      "route_name": "api.lab.document.getOne" },
+            { "name": "Update Lab Document",                   "route_name": "api.lab.document.update" },
+            { "name": "Update Many Lab Documents",             "route_name": "api.lab.document.updateMany" }
+        ]
+    },
+    {
+        "group": "lab.chat",
+        "level": 2,
+        "labels": [
+            { "name": "Get Chat Sessions",                     "route_name": "api.lab.chat.sessions.index" },
+            { "name": "Create Chat Session",                   "route_name": "api.lab.chat.sessions.create" },
+            { "name": "Get Chat Session",                      "route_name": "api.lab.chat.sessions.show" },
+            { "name": "Update Chat Session",                   "route_name": "api.lab.chat.sessions.update" },
+            { "name": "Delete Chat Session",                   "route_name": "api.lab.chat.sessions.delete" },
+            { "name": "Get Chat Messages",                     "route_name": "api.lab.chat.sessions.messages" },
+            { "name": "Send Chat Message",                     "route_name": "api.lab.chat.sessions.send" },
+            { "name": "Get Chat Session Context",              "route_name": "api.lab.chat.sessions.context" }
+        ]
+    }
+]

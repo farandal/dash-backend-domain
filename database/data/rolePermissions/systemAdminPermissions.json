@@ -1,0 +1,29 @@
+{
+    "role": "System",
+    "level": 0,
+    "description": "System Administrator - Full lab module access",
+    "permissions": [
+        "api.lab.project.create",
+        "api.lab.project.delete",
+        "api.lab.project.deleteMany",
+        "api.lab.project.filterValue",
+        "api.lab.project.filterValues",
+        "api.lab.project.getForSelect",
+        "api.lab.project.getList",
+        "api.lab.project.getMany",
+        "api.lab.project.getManyReference",
+        "api.lab.project.getOne",
+        "api.lab.project.update",
+        "api.lab.project.updateMany",
+        "api.lab.project.trash.getList",
+        "api.lab.project.trash.update",
+        "api.lab.project.trash.delete",
+        "api.lab.project.trash.updateMany",
+        "api.lab.project.trash.deleteMany",
+        "api.lab.project.users.index",
+        "api.lab.project.users.attach",
+        "api.lab.project.users.detach",
+        "api.lab.project.users.updateRole"
+
+    ]
+}

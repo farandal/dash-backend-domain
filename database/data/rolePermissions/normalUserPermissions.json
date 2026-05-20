@@ -1,0 +1,21 @@
+{
+    "role": "User",
+    "level": 3,
+    "description": "Normal User - Lab module read and create access",
+    "permissions": [
+        "api.lab.project.create",
+        "api.lab.project.filterValue",
+        "api.lab.project.filterValues",
+        "api.lab.project.getForSelect",
+        "api.lab.project.getList",
+        "api.lab.project.getMany",
+        "api.lab.project.getManyReference",
+        "api.lab.project.getOne",
+        "api.lab.project.update",
+        "api.lab.project.delete",
+        "api.lab.project.users.index",
+        "api.lab.project.users.attach",
+        "api.lab.project.users.detach",
+        "api.lab.project.users.updateRole"
+    ]
+}
