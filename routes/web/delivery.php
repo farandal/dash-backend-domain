@@ -1,12 +1,20 @@
 <?php
-        
-use Illuminate\Support\Facades\Route;
-use Domain\App\Http\Controllers\API\Delivery\TrackingOrder\TrackingOrderController;
 
-// Public routes (no authentication required)
+use Illuminate\Support\Facades\Route;
+
 /*
-Route::prefix('tracking')->name('tracking.')->group(function () {
-    Route::get('{id}', [TrackingOrderController::class, 'publicTracking'])->name('public');
-    Route::post('{id}/update', [TrackingOrderController::class, 'updateStatus'])->name('update-status');
-});
+|--------------------------------------------------------------------------
+| Example domain web routes
+|--------------------------------------------------------------------------
+|
+| This file is an optional example of how a domain can register additional
+| web routes. It is NOT loaded automatically. To enable it, require this
+| file from routes/web.php (or wire it through your service provider).
+|
+| Replace the example below with your own domain controllers and routes.
+|
 */
+
+// Route::prefix('example')->name('example.')->group(function () {
+//     Route::get('/', fn () => response()->json(['ok' => true]))->name('index');
+// });
