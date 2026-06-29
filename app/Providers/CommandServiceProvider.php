@@ -8,7 +8,7 @@ use Illuminate\Support\ServiceProvider;
 class CommandServiceProvider extends ServiceProvider
 {
     /**
-     * Daomin Commands
+     * Register domain console commands.
      *
      * @return void
      */
@@ -18,8 +18,8 @@ class CommandServiceProvider extends ServiceProvider
     }
 
     /**
-     * Load the commands
-     *<
+     * Load the commands.
+     *
      * @return void
      */
     protected function loadCommands()
